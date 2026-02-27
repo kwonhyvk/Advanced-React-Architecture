@@ -1,18 +1,13 @@
 import { useContext } from "react";
 import { AppContext } from "../context/AppContext";
-import headphone from "../assets/headphone.jpg"; 
-import keyboard from "../assets/keyboard.jpg";
-import mouse from "../assets/mouse.jpg";
-import monitor from "../assets/monitor.jpg";
-
 
 const products = [
-  { id: 1, name: "Headphone", price: 100, image: headphone },
-  { id: 2, name: "Keyboard", price: 80, image: keyboard },
-  { id: 3, name: "Mouse", price: 40, image: mouse },
-  { id: 4, name: "Monitor", price: 200, image: monitor },
-  { id: 5, name: "Laptop", price: 800, image: monitor },
-  { id: 6, name: "Tablet", price: 300, image: monitor },
+  { id: 1, name: "Headphone", price: 100, emoji: "🎧" },
+  { id: 2, name: "Keyboard", price: 80, emoji: "⌨️" },
+  { id: 3, name: "Mouse", price: 40, emoji: "🖱️" },
+  { id: 4, name: "Monitor", price: 200, emoji: "🖥️" },
+  { id: 5, name: "Laptop", price: 800, emoji: "💻" },
+  { id: 6, name: "Tablet", price: 300, emoji: "📱" },
 ];
 
 export default function Products() {
